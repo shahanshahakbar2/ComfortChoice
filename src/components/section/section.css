@@ -1,0 +1,22 @@
+.section{
+    padding: 1%;
+}
+.section p{
+    word-spacing: 10px;
+    align-items:flex-end;
+    padding: 2%;
+    color: #000000 ;
+}
+h1{
+    color: #000000 ;
+}
+.f a{
+    color: #000000 ;
+    text-decoration: none;
+}
+
+
+.paragraph{
+    margin-left: 150px;
+    margin-right: 150px;
+}

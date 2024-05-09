@@ -1,0 +1,17 @@
+.footer{
+    display: flex;
+    
+    background: #edc8f0 ;
+    color: #000000 ;
+}
+.f{
+    flex: 50%;
+    padding-bottom: 20px;
+}
+.f1{
+    
+    width: 50%;
+}
+.footer h1{
+    color: #000000 ;
+}

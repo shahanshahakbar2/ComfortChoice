@@ -1,0 +1,42 @@
+.aside{
+margin-top: -25px;
+   align-items: center;
+   width: 100%;
+  
+}
+.aside1, .aside2{
+    display: flex;
+
+}
+.p1, .p2, .img1, .img2{
+    flex: 50%;
+    margin: 3%;
+    padding: 2%;
+    
+   }
+
+.p1, .p2{
+
+word-spacing: 10px;
+line-height: 30px;
+padding-left: 100px;
+padding-right: 100px;
+text-align:justify;
+
+}
+button{
+    background: #edc8f0 ;
+    border-color: #edc8f0 ;
+    width: 100px;
+border-radius: 10px;
+    height: 40px;
+}
+button a{
+    color: #4F4846 ;
+   
+}
+
+.aside h1{
+    padding-top: 20px;
+}
+ 
