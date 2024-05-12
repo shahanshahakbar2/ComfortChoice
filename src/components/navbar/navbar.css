@@ -54,10 +54,12 @@ input{
 
 .login-container{
     display: flex;
-    color: #000;
-    text-decoration: none;
     align-items: center;
     gap: 1rem;
+}
+.login-container .login-text,.login-icon{
+    color: #000;
+    text-decoration: none;
 }
 a.active{
     font-weight: 400;

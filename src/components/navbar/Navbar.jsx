@@ -30,11 +30,15 @@ const Navbar = () => {
             <CiSearch />
             <input type='text' name='' placeholder='Search...' />
           </div>
-          <Link to='login' className='login-container '>
-            <FaUserCircle size={30} />
-            <p>Log In</p>
+          <div className='login-container '>
+            <Link to='login' className='login-icon'>
+              <FaUserCircle size={30} />
+            </Link>
+            <Link to='login' className='login-text'>
+              <span>Log In</span>
+            </Link>
             <LiaShoppingBagSolid size={32} />
-          </Link>
+          </div>
         </div>
       </div>
     </>
