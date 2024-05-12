@@ -4,23 +4,22 @@ import logo from "../../assests/logo.webp";
 import { CiSearch } from "react-icons/ci";
 import { GrUserManager } from "react-icons/gr";
 import { IoBagSharp } from "react-icons/io5";
-import { Link } from "react-router-dom";
-import Shop from "../../container/shop/Shop";
+import { Link, NavLink } from "react-router-dom";
 
 const Navbar = () => {
   return (
     <>
       <div className='links container'>
         <div className='text-container1'>
-          <Link to='shop' className='text'>
+          <NavLink to='shop' className='text'>
             SHOP
-          </Link>
-          <Link to='our-story' className='text'>
+          </NavLink>
+          <NavLink to='our-story' className='text'>
             OUR STORY
-          </Link>
-          <Link to='contact' className='text'>
+          </NavLink>
+          <NavLink to='contact' className='text'>
             CONTACT
-          </Link>
+          </NavLink>
         </div>
 
         <div className='text-container2'>

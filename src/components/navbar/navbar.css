@@ -57,6 +57,10 @@ input{
     align-items: center;
     gap: 1rem;
 }
+a.active{
+    font-weight: 400;
+    color: rgb(210, 170, 210);
+}
 
 /* .links{
     display: flex;
