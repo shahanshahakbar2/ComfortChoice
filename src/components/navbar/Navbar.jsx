@@ -2,9 +2,9 @@ import React from "react";
 import "./navbar.css";
 import logo from "../../assests/logo.webp";
 import { CiSearch } from "react-icons/ci";
-import { GrUserManager } from "react-icons/gr";
-import { IoBagSharp } from "react-icons/io5";
-import { Link, NavLink } from "react-router-dom";
+import { NavLink } from "react-router-dom";
+import { LiaShoppingBagSolid } from "react-icons/lia";
+import { FaUserCircle } from "react-icons/fa";
 
 const Navbar = () => {
   return (
@@ -31,9 +31,9 @@ const Navbar = () => {
             <input type='text' name='' placeholder='Search...' />
           </div>
           <div className='login-container'>
-            <GrUserManager />
+            <FaUserCircle size={30} />
             <p>Log In</p>
-            <IoBagSharp />
+            <LiaShoppingBagSolid size={32} />
           </div>
         </div>
       </div>
