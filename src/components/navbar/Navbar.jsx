@@ -2,7 +2,7 @@ import React from "react";
 import "./navbar.css";
 import logo from "../../assests/logo.webp";
 import { CiSearch } from "react-icons/ci";
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import { LiaShoppingBagSolid } from "react-icons/lia";
 import { FaUserCircle } from "react-icons/fa";
 
@@ -30,11 +30,11 @@ const Navbar = () => {
             <CiSearch />
             <input type='text' name='' placeholder='Search...' />
           </div>
-          <div className='login-container'>
+          <Link to='login' className='login-container '>
             <FaUserCircle size={30} />
             <p>Log In</p>
             <LiaShoppingBagSolid size={32} />
-          </div>
+          </Link>
         </div>
       </div>
     </>

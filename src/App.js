@@ -6,6 +6,7 @@ import { Route, Routes } from "react-router-dom";
 import Shop from "./container/shop/Shop";
 import Contact from "./container/contact/Contact";
 import OurStory from "./container/our-story/OurStory";
+import Login from "./container/login/Login";
 
 const App = () => (
   <div className='App'>
@@ -16,6 +17,7 @@ const App = () => (
       <Route path='shop' element={<Shop />} />
       <Route path='our-story' element={<OurStory />} />
       <Route path='contact' element={<Contact />} />
+      <Route path='login' element={<Login />} />
     </Routes>
     <Footer />
   </div>
