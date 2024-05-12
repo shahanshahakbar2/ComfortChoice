@@ -37,7 +37,9 @@ const Navbar = () => {
             <Link to='login' className='login-text'>
               <span>Log In</span>
             </Link>
-            <LiaShoppingBagSolid size={32} />
+            <Link to='cart'>
+              <LiaShoppingBagSolid size={32} color='black' />
+            </Link>
           </div>
         </div>
       </div>
