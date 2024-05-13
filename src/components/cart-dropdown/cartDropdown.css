@@ -1,0 +1,36 @@
+
+.cart-dropdown-container{
+    width: 24vw;
+    height: 100%;
+    top: 0;
+    right: 0; 
+    position: fixed;
+    z-index: 100;    
+}
+
+.cart-dropdown-text {
+    background-color: #000;
+    color: #fff;
+    height: 15%; 
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start; 
+    align-items: center; 
+  }
+  
+  .cart-dropdown-text span {
+    margin-top: 1rem; 
+    margin-left: 1rem;
+    cursor: pointer;
+  }
+  
+  .cart-dropdown-text h2 {
+    font-size: xx-large;
+    font-weight: 200;
+    margin: auto; 
+  }
+  
+.cart-dropdown-items{
+    height: 85%;
+    background-color: #fff;
+}

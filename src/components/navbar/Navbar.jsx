@@ -1,12 +1,17 @@
-import React from "react";
+import React, { useState } from "react";
 import "./navbar.css";
 import logo from "../../assests/logo.webp";
 import { CiSearch } from "react-icons/ci";
 import { Link, NavLink } from "react-router-dom";
-import { LiaShoppingBagSolid } from "react-icons/lia";
 import { FaUserCircle } from "react-icons/fa";
+import CartIcon from "../cart-icon/CartIcon";
+import CartDropdown from "../cart-dropdown/CartDropdown";
 
 const Navbar = () => {
+  const [isCartOpen, setIsCartOpen] = useState(false);
+  const toggleCartDropdown = () => {
+    setIsCartOpen(!isCartOpen);
+  };
   return (
     <>
       <div className='links container'>
@@ -37,10 +42,13 @@ const Navbar = () => {
             <Link to='login' className='login-text'>
               <span>Log In</span>
             </Link>
-            <Link to='cart'>
-              <LiaShoppingBagSolid size={32} color='black' />
-            </Link>
+            <div>
+              <CartIcon toggleCartDropdown={toggleCartDropdown} />
+            </div>
           </div>
+          {isCartOpen && (
+            <CartDropdown toggleCartDropdown={toggleCartDropdown} />
+          )}
         </div>
       </div>
     </>

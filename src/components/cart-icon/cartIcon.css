@@ -1,0 +1,15 @@
+
+.cart-icon-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+    cursor: pointer;
+}
+.cart-icon-container span{
+    position: absolute;
+    margin-top: 0.5rem;
+    display: block;
+    font-weight: 400;
+    font-size: small;
+}
