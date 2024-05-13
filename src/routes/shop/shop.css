@@ -1,0 +1,95 @@
+.shop {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+a {
+  color: black;
+}
+.browse .first1 {
+  display: flex;
+}
+.browse .first1 a {
+  text-decoration: none;
+}
+.browse .first2 p {
+  font-size: 1.5rem;
+  float: left;
+  border-bottom: 1px solid #222;
+  line-height: 2;
+}
+.browse .first3 a {
+  float: left;
+}
+.allProducts {
+  text-align: start;
+  padding: 2.5rem;
+  width: 69rem;
+  margin: 0.8rem;
+}
+.allProducts p b {
+  font-size: 2.5rem;
+  font-weight: 500;
+}
+
+.products7 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.productsNumber p {
+  border-bottom: 1px solid #222;
+  line-height: 2;
+}
+/* card */
+.allCard {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 1rem;
+  margin: 1rem;
+  gap: 1.2rem;
+  margin-bottom: 3rem;
+}
+.card {
+  width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.product-image {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.product-name {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.product-price {
+  margin-top: 5px;
+  color: #555;
+}
+
+.add-to-cart-btn {
+  display: inline-block;
+  padding: 10px 0px;
+  background-color: #ced3d95e;
+  color: #222;
+  border: 1px solid #222;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 15px;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+.add-to-cart-btn:hover {
+  background-color: #b300a77e;
+  color: #fff;
+}

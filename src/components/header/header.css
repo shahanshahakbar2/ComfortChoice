@@ -1,23 +1,21 @@
-
-.hr{
-    height: 2px; 
-    background: #edc8f0; 
-    width: 100%; 
-    margin: 0; 
-    padding: 0;
+.hr {
+  height: 2px;
+  background: #edc8f0;
+  width: 100%;
+  margin: 0;
+  padding: 0;
 }
-.offer{
-    height: 50px;
-     margin-top: -16px; 
-     background: #edc8f0 ; 
-     width: 100%; 
-     color: #FFFFFF ;
-    }
-    .offer p{
-        align-items: center;
-        padding-top: 10px;
-        padding-left: 2%;
-        padding-right: 2%;
-        color: #FFFFFF ;
-    }
-  
+.offer {
+  height: 50px;
+  margin-top: -16px;
+  background: #edc8f0;
+  width: 100%;
+  color: #ffffff;
+}
+.offer p {
+  align-items: center;
+  padding-top: 10px;
+  padding-left: 2%;
+  padding-right: 2%;
+  color: #ffffff;
+}
