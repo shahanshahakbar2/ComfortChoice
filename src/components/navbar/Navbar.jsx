@@ -3,8 +3,8 @@ import "./navbar.css";
 import logo from "../../assests/logo.webp";
 import { CiSearch } from "react-icons/ci";
 import { Link, NavLink } from "react-router-dom";
-import { LiaShoppingBagSolid } from "react-icons/lia";
 import { FaUserCircle } from "react-icons/fa";
+import CartIcon from "../cart-icon/CartIcon";
 
 const Navbar = () => {
   return (
@@ -38,7 +38,7 @@ const Navbar = () => {
               <span>Log In</span>
             </Link>
             <Link to='cart'>
-              <LiaShoppingBagSolid size={32} color='black' />
+              <CartIcon />
             </Link>
           </div>
         </div>
