@@ -1,7 +1,9 @@
-import React from "react";
+import React, { useState } from "react";
+import CartDropdown from "../../components/cart-dropdown/CartDropdown";
 
 const Cart = () => {
-  return <h1>I am Cart component.</h1>;
+  const [isCartOpen, setIsCartOpen] = useState(false);
+  return <>{isCartOpen ? <CartDropdown /> : ""}</>;
 };
 
 export default Cart;
