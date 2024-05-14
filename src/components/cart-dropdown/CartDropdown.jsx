@@ -12,11 +12,24 @@ const CartDropdown = ({ toggleCartDropdown }) => {
         </span>
         <h2>Cart</h2>
       </div>
-      {cartItem.length === 0 ? (
-        <h3>Cart is empty</h3>
-      ) : (
-        <div className='cart-dropdown-items'></div>
-      )}
+      <div className='cart-dropdown-items'>
+        <div>
+          {cartItem.length === 0 ? (
+            <div>
+              <h3
+                style={{
+                  marginTop: 0,
+                  paddingTop: "5rem",
+                }}
+              >
+                Cart is empty
+              </h3>
+            </div>
+          ) : (
+            ""
+          )}
+        </div>
+      </div>
     </div>
   );
 };
