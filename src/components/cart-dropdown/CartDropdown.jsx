@@ -1,8 +1,9 @@
-import React from "react";
+import React, { useState } from "react";
 import "./cartDropdown.css";
 import { AiOutlineRight } from "react-icons/ai";
 
 const CartDropdown = ({ toggleCartDropdown }) => {
+  const [cartItem, setCartItem] = useState([]);
   return (
     <div className='cart-dropdown-container'>
       <div className='cart-dropdown-text'>
@@ -11,7 +12,11 @@ const CartDropdown = ({ toggleCartDropdown }) => {
         </span>
         <h2>Cart</h2>
       </div>
-      <div className='cart-dropdown-items'></div>
+      {cartItem.length === 0 ? (
+        <h3>Cart is empty</h3>
+      ) : (
+        <div className='cart-dropdown-items'></div>
+      )}
     </div>
   );
 };
