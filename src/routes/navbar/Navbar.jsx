@@ -4,8 +4,8 @@ import logo from "../../assests/logo.webp";
 import { CiSearch } from "react-icons/ci";
 import { Link, NavLink } from "react-router-dom";
 import { FaUserCircle } from "react-icons/fa";
-import CartIcon from "../cart-icon/CartIcon";
-import CartDropdown from "../cart-dropdown/CartDropdown";
+import CartIcon from "../../components/cart-icon/CartIcon";
+import CartDropdown from "../../components/cart-dropdown/CartDropdown";
 
 const Navbar = () => {
   const [isCartOpen, setIsCartOpen] = useState(false);
