@@ -7,15 +7,8 @@ import image1 from "../../assests/image1.webp";
 const Aside = () => {
   return (
     <>
-      <div
-        className="image"
-        style={{
-          backgroundImage: `url(${image1})`,
-          backgroundSize: "cover",
-          backgroundPosition: "center",
-        }}
-      >
-        {/* <img src={image1} alt="pic" /> */}
+      <div className="image">
+        <img src={image1} alt="pic" />
       </div>
       <div className="aside">
         <h1>Our Story</h1>
