@@ -1,5 +1,6 @@
 import React from "react";
-import { Header, Footer, Navbar } from "./components";
+import { Header, Footer } from "./components";
+import Navbar from "./routes/navbar/Navbar";
 import "./App.css";
 import Home from "./routes/home/Home";
 import { Route, Routes } from "react-router-dom";
